@@ -112,7 +112,7 @@ def playfair():
 def playfair_encrypt():
     text = request.form['inputPlainText']
     key = request.form['inputKeyPlain']
-    playfair = PlayFairCipher()
+    playfair = PlayfairCipher()
     matrix = playfair.create_playfair_matrix(key)  # Tạo ma trận từ key
     encrypted_text = playfair.playfair_encrypt(text, matrix)
     return render_template('playfair.html',
@@ -126,7 +126,7 @@ def playfair_encrypt():
 def playfair_decrypt():
     text = request.form['inputCipherText']
     key = request.form['inputKeyCipher']
-    playfair = PlayFairCipher()
+    playfair = PlayfairCipher()
     matrix = playfair.create_playfair_matrix(key)  # Tạo ma trận từ key
     decrypted_text = playfair.playfair_decrypt(text, matrix)
     return render_template('playfair.html',
