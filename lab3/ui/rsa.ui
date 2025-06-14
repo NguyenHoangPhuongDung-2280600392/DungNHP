@@ -7,7 +7,7 @@
     <x>0</x>
     <y>0</y>
     <width>916</width>
-    <height>600</height>
+    <height>645</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -100,7 +100,7 @@
      <string>Information:</string>
     </property>
    </widget>
-   <widget class="QPushButton" name="pushButton">
+   <widget class="QPushButton" name="btn_encrypt">
     <property name="geometry">
      <rect>
       <x>90</x>
@@ -113,7 +113,7 @@
      <string>Encrypt</string>
     </property>
    </widget>
-   <widget class="QPushButton" name="pushButton_2">
+   <widget class="QPushButton" name="btn_decrypt">
     <property name="geometry">
      <rect>
       <x>250</x>
@@ -126,7 +126,7 @@
      <string>Decrypt</string>
     </property>
    </widget>
-   <widget class="QPushButton" name="pushButton_3">
+   <widget class="QPushButton" name="btn_sig">
     <property name="geometry">
      <rect>
       <x>520</x>
@@ -139,7 +139,7 @@
      <string>Sign</string>
     </property>
    </widget>
-   <widget class="QPushButton" name="pushButton_4">
+   <widget class="QPushButton" name="btn_ve">
     <property name="geometry">
      <rect>
       <x>740</x>
@@ -170,12 +170,12 @@
      <string>Signature :</string>
     </property>
    </widget>
-   <widget class="QPushButton" name="pushButton_5">
+   <widget class="QPushButton" name="btn_gen">
     <property name="geometry">
      <rect>
       <x>580</x>
       <y>60</y>
-      <width>81</width>
+      <width>91</width>
       <height>23</height>
      </rect>
     </property>
@@ -230,7 +230,7 @@
      <x>0</x>
      <y>0</y>
      <width>916</width>
-     <height>21</height>
+     <height>26</height>
     </rect>
    </property>
   </widget>
