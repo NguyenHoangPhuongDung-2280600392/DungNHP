@@ -4,9 +4,9 @@ export const PERSONAL_PROFILE: Profile = {
   name: "Nguyễn Hoàng Phương Dung",
   title: "Sinh viên năm cuối ngành Công nghệ thông tin",
   bio: "Chuyên ngành Công nghệ phần mềm. Đam mê nghiên cứu về mô hình mạng, giao thức truyền thông và kỹ thuật lập trình ứng dụng mạng hiện đại.",
-  avatar: "https://img.freepik.com/free-vector/cute-monkey-cartoon-vector-icon-illustration-animal-nature-icon-concept-isolated-premium-vector-flat-cartoon-style_138676-4033.jpg",
+  avatar: "https://raw.githubusercontent.com/NguyenHoangPhuongDung-2280600392/DungNHP/main/Avt.jpg",
   socials: {
-    github: "https://github.com/NguyenHoangPhuongDung-2280600392/NguyenHoangPhuongDung-2280600392",
+    github: "https://github.com/NguyenHoangPhuongDung-2280600392/DungNHP",
     facebook: "https://www.facebook.com/share/1Bh7LLZz7t/",
     phone: "0774803512"
   }
