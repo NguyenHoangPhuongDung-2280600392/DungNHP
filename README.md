@@ -1,20 +1,18 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+Blog cá nhân :
 
-# Run and deploy your AI Studio app
+Dự án được thực hiện nhằm phục vụ cho mục đích học tập và nghiên cứu,
+giúp áp dụng các kiến thức đã học vào thực tế.
 
-This contains everything you need to run your app locally.
+## Công nghệ sử dụng
+- Node.js
+- JavaScript
+- Các thư viện liên quan
 
-View your app in AI Studio: https://ai.studio/apps/drive/1IQ4CqFbMe8CJ4A15_JvFBnnbwJt09VYf
+## Hướng dẫn chạy chương trình
 
-## Run Locally
+**Yêu cầu:** Node.js
 
-**Prerequisites:**  Node.js
-
-
-1. Install dependencies:
+1. Cài đặt thư viện:
    `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
+2. Chạy ứng dụng:
    `npm run dev`
